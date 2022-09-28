@@ -193,7 +193,7 @@ section.education {
   transform: translate(-1.45rem, -1.7rem);
   width: 0.75rem;
   height: 0.75rem;
-  background-color: white;
+  background-color: var(--font-color);
   border-radius: 50%;
   z-index: 1;
 }
