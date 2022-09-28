@@ -8,6 +8,7 @@
   --header-box-shadow-color: #000;
   --dark-background-opacity: 1;
   --light-background-opacity: 0;
+  --timeline-item-description-color: rgb(255, 255, 255, 0.75);
 }
 
 .lightMode {
@@ -17,6 +18,7 @@
   --font-color-clicked: #505050;
   --header-bg-color: #fff;
   --header-box-shadow-color: #818181;
+  --timeline-item-description-color: rgb(0, 0, 0, 0.75);
 }
 
 #enable-dark-mode-btn {
@@ -171,6 +173,37 @@ section.education {
   border-top-right-radius: 5rem;
   border-bottom-left-radius: 5rem;
   background-color: rgb(181, 40, 26, 0.5);
+}
+
+.timeline-history {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 2px solid var(--font-color);
+  padding-left: 1rem;
+}
+
+.timeline-item {
+  height: 4rem;
+}
+
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  transform: translate(-1.45rem, -1.7rem);
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item-title {
+  font-weight: 600;
+}
+
+.timeline-item-description {
+  color: var(--timeline-item-description-color);
 }
 
 section.experience {
