@@ -213,3 +213,15 @@ section.experience {
 section.skills {
   background-color: rgb(103, 106, 111, 0.5);
 }
+
+.tech-skills {
+  display: grid;
+  column-gap: 4rem;
+  row-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tech-logo {
+  width: 5rem;
+  height: 5rem;
+}
