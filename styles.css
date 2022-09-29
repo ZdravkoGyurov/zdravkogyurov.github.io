@@ -69,7 +69,7 @@ body {
 .background-dark::after,
 .background-light::after {
   content: "";
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   backdrop-filter: blur(4rem);
@@ -211,13 +211,12 @@ section.education {
 }
 
 .timeline-item {
-
 }
 
 .timeline-item-title::before {
   content: "";
   position: absolute;
-  transform: translate(-1.45rem, .7rem);
+  transform: translate(-1.45rem, 0.7rem);
   width: 0.75rem;
   height: 0.75rem;
   background-color: var(--font-color);
