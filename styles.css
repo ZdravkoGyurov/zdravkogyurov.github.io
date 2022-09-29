@@ -30,6 +30,7 @@
 
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -175,7 +176,6 @@ section.about-me {
 
 .download-cv-btn {
   color: var(--font-color);
-  text-transform: uppercase;
   letter-spacing: 1px;
   box-shadow: 0px 10px 20px rgba(46, 229, 157, 0.4);
   background-color: rgba(46, 229, 156, 0.5);
@@ -213,13 +213,13 @@ section.education {
 }
 
 .timeline-item {
-  height: 4rem;
+  
 }
 
-.timeline-item::after {
+.timeline-item-title::before {
   content: "";
   position: absolute;
-  transform: translate(-1.45rem, -1.7rem);
+  transform: translate(-1.45rem, .7rem);
   width: 0.75rem;
   height: 0.75rem;
   background-color: var(--font-color);
