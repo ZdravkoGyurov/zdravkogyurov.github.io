@@ -247,7 +247,30 @@ section.skills {
   display: grid;
   row-gap: 2rem;
   justify-content: space-evenly;
-  grid-template-columns: auto auto auto auto;
+}
+
+@media (min-width: 1200px) {
+  .tech-skills {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .tech-skills {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+  .tech-skills {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .tech-skills {
+    grid-template-columns: auto;
+  }
 }
 
 .tech-logo {
