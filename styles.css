@@ -30,7 +30,6 @@
 
 * {
   box-sizing: border-box;
-  outline: none;
 }
 
 body {
@@ -54,7 +53,6 @@ body {
   z-index: -1;
   background: no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
   transition: 0.5s ease;
 }
 
@@ -213,7 +211,7 @@ section.education {
 }
 
 .timeline-item {
-  
+
 }
 
 .timeline-item-title::before {
