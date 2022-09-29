@@ -73,6 +73,7 @@ body {
   width: 100%;
   height: 100%;
   backdrop-filter: blur(4rem);
+  -webkit-backdrop-filter: blur(4rem);
   pointer-events: none;
 }
 
@@ -133,6 +134,12 @@ h1 {
   align-items: center;
   color: var(--font-color);
   text-decoration: none;
+}
+
+.theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
