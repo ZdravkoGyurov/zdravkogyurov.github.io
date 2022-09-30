@@ -99,7 +99,7 @@ h1 {
   gap: 2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 810px) {
   .header-left {
     display: none;
   }
@@ -214,8 +214,8 @@ h1 {
   position: fixed;
   top: 3.25rem;
   right: 0;
-  width: 50%;
-  height: 50%;
+  width: 12rem;
+  height: 24rem;
   margin: 0;
   padding: 0;
   display: flex;
@@ -236,7 +236,7 @@ h1 {
   pointer-events: all;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 811px) {
   .hamburger-menu {
     display: none;
   }
@@ -296,6 +296,12 @@ section.about-me {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 400px) {
+  .download-cv-btn {
+    letter-spacing: normal;
+  }
+}
+
 .download-cv-btn:hover {
   transform: translateY(-7px);
   background-color: #2ee59cb7;
@@ -353,19 +359,19 @@ section.skills {
   justify-content: space-evenly;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1201px) {
   .tech-skills {
     grid-template-columns: auto auto auto auto;
   }
 }
 
-@media (min-width: 800px) and (max-width: 1200px) {
+@media (min-width: 811px) and (max-width: 1200px) {
   .tech-skills {
     grid-template-columns: auto auto auto;
   }
 }
 
-@media (min-width: 400px) and (max-width: 800px) {
+@media (min-width: 401px) and (max-width: 810px) {
   .tech-skills {
     grid-template-columns: auto auto;
   }
